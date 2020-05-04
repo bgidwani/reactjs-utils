@@ -3,7 +3,7 @@ const loginStyles = (theme) => ({
         height: '100vh',
     },
     image: {
-        backgroundImage: 'url(./assets/grocery.webp)',
+        backgroundImage: 'url(http://source.unsplash.com/random)',
         backgroundRepeat: 'no-repeat',
         backgroundColor:
             theme.palette.type === 'light'

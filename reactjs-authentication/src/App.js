@@ -86,7 +86,7 @@ class App extends Component {
 
     render() {
         const { classes } = this.props;
-        const { currentUser } = this.state;
+        var { currentUser } = this.state;
         return (
             <Router>
                 <div className={classes.root}>
@@ -99,7 +99,7 @@ class App extends Component {
                                         className={classes.title}
                                         color="inherit"
                                     >
-                                        Groceries
+                                        React Authentication
                                     </TypoGraphy>
                                     <div className="navbar-nav ml-auto">
                                         <li className="nav-item">
